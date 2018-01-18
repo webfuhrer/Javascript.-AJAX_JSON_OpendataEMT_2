@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="javascript/funciones.js"></script>
+<style>
+.fila_clicable:hover
+{
+cursor: pointer;
+background: #DDDDDD;
+}
+</style>
+</head>
+<body>
+Latitud: <input type="text" id="latitud" value="40.420743">
+Longitud: <input type="text" id="longitud" value="-3.703942">
+Radio: <input type="text" id="radio" value="150">
+<button type="button" onclick="getStopsFromXY();">Buscar paradas</button>
+<div id="contenedor_getstopsfromxy"></div>
+<div id="contenedor_getarrivestop"></div>
+</body>
+</html>
